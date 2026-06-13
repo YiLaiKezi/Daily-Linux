@@ -14,13 +14,64 @@
 
 <br>
 
-## Index
+## 📌 Table of Contents
 
-> *The complete roadmap will be built here as chapters are added.*
+<br>
 
----
+<table width="100%">
+  <tr>
+    <th align="center" width="10%">ID</th>
+    <th align="left">Section Topic</th>
+  </tr>
+  <tr>
+    <td align="center"><code>1.0</code></td>
+    <td><b><a href="#10-overview">Overview</a></b></td>
+  </tr>
+  <tr>
+    <td align="center"><code>2.0</code></td>
+    <td><b><a href="#20-introduction">Introduction</a></b></td>
+  </tr>
+  <tr>
+    <td align="center"><code>2.1</code></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp; ↳ <a href="#21--what-exactly-is-linux">What exactly is Linux?</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>2.2</code></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp; ↳ <a href="#22--what-is-a-distro">What is a "Distro"?</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>2.3</code></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp; ↳ <a href="#23--the-different-linux-families">The Different Linux Families</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>2.4</code></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp; ↳ <a href="#24--wait-what-is-a-package-manager">Wait, what is a "Package Manager"?</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>2.5</code></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp; ↳ <a href="#25-️-what-is-a-desktop-environment-de">What is a "Desktop Environment" (DE)?</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>2.6</code></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp; ↳ <a href="#26--popular--actively-maintained-des">Popular & Actively Maintained DEs</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>2.7</code></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp; ↳ <a href="#27-️-special-category-tiling-window-managers-twms">Tiling Window Managers (TWMs)</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>3.0</code></td>
+    <td><b><a href="#30--visual-tour-exploring-the-environments">Visual Tour: Exploring the Environments</a></b></td>
+  </tr>
+  <tr>
+    <td align="center"><code>3.1</code></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp; ↳ <a href="#31--gnome">GNOME</a></td>
+  </tr>
+</table>
 
-## Overview
+<br>
+
+## 1.0 Overview
 
 Welcome to **Daily Linux**. 
 
@@ -32,20 +83,20 @@ It is designed to be a practical, no-nonsense companion for transitioning to Lin
 
 ---
 
-## Introduction
+## 2.0 Introduction
 
-### 🐧 What exactly is Linux?
+### 2.1 🐧 What exactly is Linux?
 Think of an operating system like a car. Windows and macOS are fully built vehicles—you get them as-is, with the dashboard, seats, and paint job already chosen for you by the manufacturer. 
 
 **Linux**, strictly speaking, is just the *engine* (the kernel). It is the invisible core software that lets your computer's hardware talk to your applications. Because this engine is open-source, anyone is free to take it and build their own custom vehicle around it.
 
-### 📦 What is a "Distro"?
+### 2.2 📦 What is a "Distro"?
 Since you can't drive a car that is just an engine, developers bundle the Linux kernel with a graphical interface, a file manager, settings menus, and pre-installed apps to give you a complete, ready-to-use operating system. 
 
 This complete package is called a **Linux Distribution** (or "Distro" for short). 
 *(Examples: Ubuntu, Linux Mint, Fedora, Pop!_OS).*
 
-### 🧬 The Different Linux Families
+### 2.3 🧬 The Different Linux Families
 While there are hundreds of distros out there, most are not built from scratch. They are usually customized variations based on a few major "parent" families. The biggest difference between these families is **how they install software** and **how often they get system updates**.
 
 <br>
@@ -77,7 +128,7 @@ While there are hundreds of distros out there, most are not built from scratch. 
 
 <br>
 
-### 🛒 Wait, what is a "Package Manager"?
+### 2.4 🛒 Wait, what is a "Package Manager"?
 
 In the table above, you probably noticed weird commands like `apt`, `pacman`, or `dnf` being called package managers. If you are coming from Windows or macOS, you might be wondering what exactly that means.
 
@@ -98,7 +149,7 @@ The absolute best part? When it is time to update your computer, you don't have 
 
 <br>
 
-### 🖥️ What is a "Desktop Environment" (DE)?
+### 2.5 🖥️ What is a "Desktop Environment" (DE)?
 
 If the Linux kernel is the car's engine, the **Desktop Environment (DE)** is the dashboard, the steering wheel, the seats, and the paint job. 
 
@@ -106,7 +157,7 @@ On Windows or macOS, you are completely stuck with the interface Microsoft or Ap
 
 Linux treats the visual interface as just another piece of software. You can completely rip it out, swap it for something else, or customize it entirely without ever breaking the underlying operating system. Because of this, Linux distributions often come in different "flavors." A flavor is simply the exact same core OS, but shipped with a different visual interface built on top.
 
-### ✨ Popular & Actively Maintained DEs
+### 2.6 ✨ Popular & Actively Maintained DEs
 
 While there are dozens of interfaces out there, these are the heavyweights that are highly polished, well-funded, and actively updated today:
 
@@ -149,7 +200,7 @@ While there are dozens of interfaces out there, these are the heavyweights that 
 
 <br>
 
-### 🛠️ Special Category: Tiling Window Managers (TWMs)
+### 2.7 🛠️ Special Category: Tiling Window Managers (TWMs)
 
 Not everyone wants a full "desktop environment." Power users who want absolute maximum speed often use **Window Managers**. Instead of windows floating around and overlapping like on Windows or Mac, a Tiling Window Manager automatically snaps every window perfectly to the screen in a grid. You never use a mouse to drag or resize—everything is done instantly with keyboard shortcuts.
 
@@ -174,7 +225,7 @@ Not everyone wants a full "desktop environment." Power users who want absolute m
 > 
 <br>
 
-## 📸 Visual Tour: Exploring the Environments
+## 3.0 📸 Visual Tour: Exploring the Environments
 
 While reading about different desktop environments gives you a solid foundation, seeing them in action makes all the difference. Your interface is where you will spend all of your time on the computer, so finding a layout that feels intuitive and comfortable for your daily workflow is essential. 
 
@@ -183,7 +234,7 @@ choose the perfect daily driver.
 
 ---
 
-## <img src="https://cdn.simpleicons.org/gnome/4A86CF" width="35" align="top" alt="GNOME Logo"> GNOME
+## 3.1 <img src="https://cdn.simpleicons.org/gnome/4A86CF" width="35" align="top" alt="GNOME Logo"> GNOME
 
 <p>
   <b>🌟 The "Apple" of the Linux World</b><br>
@@ -193,8 +244,11 @@ choose the perfect daily driver.
 <br>
 
 <div align="center">
-  <img src="YOUR_FIRST_IMAGE_LINK_HERE" width="49%" alt="GNOME Desktop View">
-  <img src="YOUR_SECOND_IMAGE_LINK_HERE" width="49%" alt="GNOME Activities View">
+  <img src="https://github.com/user-attachments/assets/c5c1a564-e4af-45a0-ad59-4cec9d482ec3" width="100%" alt="GNOME Desktop View">
+  <br><br>
+  <img src="https://github.com/user-attachments/assets/853ba973-744e-4e91-9048-3196919e77e6" width="100%" alt="GNOME Activities View">
+  <br><br>
+  <img src="https://github.com/user-attachments/assets/d8e4806a-858c-4845-8229-e947197cfef3" width="100%" alt="GNOME App Grid View">
 </div>
 
 <br>
@@ -209,7 +263,9 @@ choose the perfect daily driver.
       <b>🖐️ Trackpad Magic</b><br>
       If you are on a laptop, GNOME features the absolute best 1:1 swipe gestures in the Linux world. It feels incredibly premium and responsive.<br><br>
       <b>📦 Incredible App Ecosystem</b><br>
-      It comes with a fantastic suite of beautifully designed, native apps out of the box (like Nautilus for files) that all share the exact same clean aesthetic.
+      It comes with a fantastic suite of beautifully designed, native apps out of the box (like Nautilus for files) that all share the exact same clean aesthetic.<br><br>
+      <b>🎨 Next-Level Aesthetics</b><br>
+      While it looks solid stock, it becomes dynamic and gorgeous when you tap into community extensions. Plugins like <i>Blur my Shell</i> add glassmorphism and stunning blur effects that make the UI look incredibly modern.
     </td>
     <td width="50%" valign="top">
       <h3 align="center">⚠️ The Harsh Truth</h3>
@@ -219,7 +275,7 @@ choose the perfect daily driver.
       <b>🧱 "My Way or the Highway"</b><br>
       Pure GNOME hides the minimize button and desktop icons to force you into using workspaces. <i>(Note: Ubuntu adds them back, but on Fedora/Arch, you need to install a "Tweaks" app to get them).</i><br><br>
       <b>🧩 Extension Roulette</b><br>
-      People use community "extensions" to customize GNOME. The catch? Every time GNOME releases a major system update, many of your extensions will temporarily break.
+      Those awesome aesthetics come with a catch. Because extensions inject code directly into the shell, major GNOME system updates will frequently break your favorite blur plugins until developers patch them.
     </td>
   </tr>
 </table>
@@ -230,5 +286,3 @@ choose the perfect daily driver.
 </p>
 
 <br>
-
-
