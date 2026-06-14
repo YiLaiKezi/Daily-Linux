@@ -161,6 +161,8 @@ On Windows or macOS, you are completely stuck with the interface Microsoft or Ap
 
 Linux treats the visual interface as just another piece of software. You can completely rip it out, swap it for something else, or customize it entirely without ever breaking the underlying operating system. Because of this, Linux distributions often come in different "flavors." A flavor is simply the exact same core OS, but shipped with a different visual interface built on top.
 
+<br>
+
 ### 2.6 ✨ Popular & Actively Maintained DEs
 
 While there are dozens of interfaces out there, these are the heavyweights that are highly polished, well-funded, and actively updated today:
@@ -179,6 +181,10 @@ While there are dozens of interfaces out there, these are the heavyweights that 
   <tr>
     <td align="center" width="10%"><img src="https://cdn.simpleicons.org/linuxmint/87A556" width="60" alt="Cinnamon" /></td>
     <td><b>Cinnamon</b><br>Designed from the ground up to be the most comfortable, seamless, and rock-solid transition for a lifelong Windows user. Familiar, straightforward, and stays completely out of your way. <i>(Default on Linux Mint)</i>.</td>
+  </tr>
+  <tr>
+    <td align="center" width="10%"><img src="https://cdn.simpleicons.org/deepin/0050FF" width="60" alt="Deepin" /></td>
+    <td><b>Deepin</b><br>Widely considered the most visually stunning, "Apple-like" interface in the Linux ecosystem out of the box. It features a gorgeous control center, heavy blur effects, and highly refined native applications.</td>
   </tr>
   <tr>
     <td align="center" width="10%"><img src="https://cdn.simpleicons.org/xfce/2284F2" width="60" alt="XFCE" /></td>
@@ -226,8 +232,8 @@ Not everyone wants a full "desktop environment." Power users who want absolute m
 </table>
 
 > **Note:** While the broader Linux community offers endless customization options, the environments listed above represent the most stable, heavily maintained, and reliable interfaces to pick from for a bulletproof daily driver workflow.
-> 
 <br>
+
 
 ## 3.0 🎨 The Visual Tour (Desktop Environments)
 
@@ -543,15 +549,54 @@ Below is a straightforward, technical breakdown of the available Desktop Environ
   <br>
 </details>
 
+<details id="309--deepin">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.9</b> <img src="https://cdn.simpleicons.org/deepin/0050FF" width="28" align="absmiddle" alt="Deepin Logo"> <b>Deepin</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Visual Masterpiece</b><br>
+    Deepin is widely regarded as one of the most aesthetically pleasing desktop environments in the Linux ecosystem. It offers a refined, modern, and polished user experience that feels highly intuitive. With its signature control center, fluid animations, and custom-designed suite of applications, it provides a "premium" feel right out of the box.
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshots |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/14c9f079-3358-4849-a04c-1216fcb1e06b" width="100%" alt="Deepin Desktop View 1"> |
+| <img src="https://github.com/user-attachments/assets/2e65dcd9-33e4-407a-90b2-0203abe590aa" width="100%" alt="Deepin Desktop View 2"> |
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🎨 Stunning Aesthetics:** It offers arguably the best default look in Linux. It uses heavy blur, beautiful icons, and cohesive color schemes that require zero manual "ricing." | **🕵️ Privacy Concerns:** Because it is developed by a company based in China, some privacy-conscious users avoid it due to concerns over past telemetry findings in its app store. |
+| **🎛️ Unified Control Center:** Instead of scattered settings windows, Deepin uses a sleek, sliding right-side panel that manages everything, making system configuration feel effortless. | **⚙️ Stability Issues:** While Deepin is very stable on its native Deepin OS, attempting to install the Deepin Desktop Environment on other Linux distributions can be notoriously difficult and buggy. |
+| **🛠️ Integrated App Suite:** It ships with a complete, beautifully designed set of native apps (File Manager, Music Player, Terminal) that share a consistent design language. | **⚖️ Resource Heavy:** The beautiful animations and blur effects are resource-intensive. It performs best on modern hardware and may feel sluggish on older machines. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Users who prioritize stunning out-of-the-box design, people who love macOS-style polish, and those using Deepin OS.<br>
+    🔗 <b>More Info:</b> <a href="https://www.deepin.org/en/">deepin.org</a>
+  </p>
+
+  <br>
+</details>
+
+
+
 ### Tiling Window Managers (TWMs)
 
 While these aren't full desktop environments as explained earlier, they offer incredibly unique, highly customizable visual layouts built strictly for power users.
 
 <br>
 
-<details id="39--hyprland">
+<details id="310--hyprland">
   <summary style="font-size: 24px; cursor: pointer;">
-    <b>3.9</b> <img src="https://cdn.simpleicons.org/hyprland/00A489" width="28" align="absmiddle" alt="Hyprland Logo"> <b>Hyprland</b>
+    <b>3.10</b> <img src="https://cdn.simpleicons.org/hyprland/00A489" width="28" align="absmiddle" alt="Hyprland Logo"> <b>Hyprland</b>
   </summary>
 
   <br>
@@ -587,9 +632,9 @@ While these aren't full desktop environments as explained earlier, they offer in
   <br>
 </details>
 
-<details id="310--sway">
+<details id="311--sway">
   <summary style="font-size: 24px; cursor: pointer;">
-    <b>3.10</b> <img src="https://cdn.simpleicons.org/sway/E95420" width="28" align="absmiddle" alt="Sway Logo"> <b>Sway</b>
+    <b>3.11</b> <img src="https://cdn.simpleicons.org/sway/E95420" width="28" align="absmiddle" alt="Sway Logo"> <b>Sway</b>
   </summary>
 
   <br>
@@ -625,9 +670,9 @@ While these aren't full desktop environments as explained earlier, they offer in
   <br>
 </details>
 
-<details id="311--i3wm">
+<details id="312--i3wm">
   <summary style="font-size: 24px; cursor: pointer;">
-    <b>3.11</b> <img src="https://cdn.simpleicons.org/i3/4C7A99" width="28" align="absmiddle" alt="i3wm Logo"> <b>i3wm</b>
+    <b>3.12</b> <img src="https://cdn.simpleicons.org/i3/4C7A99" width="28" align="absmiddle" alt="i3wm Logo"> <b>i3wm</b>
   </summary>
 
   <br>
@@ -742,3 +787,45 @@ If you chose **Hyprland**, **Sway**, or **i3wm**, the rules are a bit different.
 If you want to use a TWM, your best bet is to use an intermediate, DIY-friendly distro like **EndeavourOS** or **Arch Linux**. These distros provide the perfect barebones foundation for you to install a window manager and start writing your own custom configuration files from scratch.
 
 <br>
+
+## 6.0 🧪 Try Before You Buy: The "Live USB" Magic
+
+One of the biggest fears for Windows or Mac users is accidentally wiping their entire computer just to test out a Linux desktop. But here is the greatest secret weapon of the Linux world: **The Live USB**.
+
+You can load an entire Linux distribution onto a standard USB thumb drive, plug it in, and boot your computer directly from it. The operating system runs entirely in your computer's RAM, meaning it **never touches your hard drive** and leaves your current Windows or macOS installation completely safe. When you unplug the USB and reboot, it's like nothing ever happened.
+
+<br>
+
+### 6.1 Standard Flashing Tools (The Traditional Way)
+
+To create a Live USB, you can't just copy-paste the Linux `.iso` file (the disk image you downloaded) onto a drive like a normal file. You need a specialized app that "flashes" the system onto the USB to make it bootable. Here are the two most popular traditional tools:
+
+| 💽 The Tool | ✨ The Use (Pros) | ⚠️ The Catch (Cons) | ⬇️ Link |
+| :---: | :--- | :--- | :---: |
+| <img src="https://raw.githubusercontent.com/pbatard/rufus/master/res/icons/rufus-512.png" width="64" alt="Rufus Logo"><br>**Rufus** | The undisputed king for Windows users. It is incredibly lightweight, extremely fast, and highly reliable. | It is strictly Windows-only. More importantly, it permanently formats your entire USB drive for just **one** operating system at a time. | [Download](https://rufus.ie/) |
+| <img src="https://raw.githubusercontent.com/balena-io/etcher/master/assets/icon.png" width="64" alt="BalenaEtcher Logo"><br>**BalenaEtcher** | The best choice if you are currently on a Mac. It has a beautiful, highly visual, idiot-proof interface. Just three clicks to flash. | It is surprisingly resource-heavy for a simple flashing tool. And just like Rufus, it limits you to testing **one** Linux distro per USB drive. | [Download](https://etcher.balena.io/) |
+
+<br>
+
+### 6.2 👑 My Ultimate Recommendation: Ventoy
+
+If you are using this guide, you are probably curious about testing out several different desktop environments to see which one you actually like using. Using Rufus to format your USB drive, test an OS, wipe it, flash a new OS, test it, and repeat is an exhausting waste of time. 
+
+Enter <img src="https://github.com/ventoy/Ventoy/raw/master/ICON/logo_512.png" width="24" align="absmiddle" alt="Ventoy Logo"> **[Ventoy](https://ventoy.net/)**. This tool is an absolute game-changer. 
+
+<br>
+
+| 📸 The Ventoy Boot Menu |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/f21c8d26-1e96-4ed7-b909-c06d1b01fd79" width="100%" alt="Ventoy Boot Menu"> |
+
+<br>
+
+Instead of flashing a single operating system, you install Ventoy to your USB drive *once*. After that, the USB simply acts like a normal, everyday storage drive. You literally just **drag and drop** as many Linux `.iso` files as you want directly into the USB folder. 
+
+When you boot your computer from the USB drive, Ventoy greets you with a customized menu listing every single ISO you copied over. You just use your arrow keys to pick the one you want to test and hit enter. 
+
+> 💡 **The Ultimate Test Drive Strategy:** Grab a 16GB or 32GB USB drive, install Ventoy on it, and drag the `.iso` files for *Fedora Workstation (GNOME)*, *Kubuntu (KDE)*, and *Linux Mint (Cinnamon)* onto it. You can now effortlessly test-drive the top three desktop environments sequentially without ever reformating your drive!
+
+<br>
+
