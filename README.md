@@ -61,11 +61,15 @@
   </tr>
   <tr>
     <td align="center"><code>3.0</code></td>
-    <td><b><a href="#30--visual-tour-exploring-the-environments">Visual Tour: Exploring the Environments</a></b></td>
+    <td><b><a href="#30--the-visual-tour-desktop-environments">The Visual Tour (Desktop Environments)</a></b></td>
   </tr>
   <tr>
     <td align="center"><code>3.1</code></td>
     <td>&nbsp;&nbsp;&nbsp;&nbsp; ↳ <a href="#31--gnome">GNOME</a></td>
+  </tr>
+  <tr>
+    <td align="center"><code>3.2</code></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp; ↳ <a href="#32--kde-plasma">KDE Plasma</a></td>
   </tr>
 </table>
 
@@ -233,7 +237,7 @@ Below is a straightforward, technical breakdown of the available Desktop Environ
  
 </details>
 
-<details>
+<details id="31--gnome">
   <summary style="font-size: 24px; cursor: pointer;">
     <b>3.1</b> <img src="https://cdn.simpleicons.org/gnome/4A86CF" width="28" align="absmiddle" alt="GNOME Logo"> <b>GNOME</b>
   </summary>
@@ -269,7 +273,399 @@ Below is a straightforward, technical breakdown of the available Desktop Environ
     <b>🎯 Best For:</b> Laptop users, minimalists, and developers who refuse to touch the mouse.<br>
     🔗 <b>More Info:</b> <a href="https://www.gnome.org/">gnome.org</a>
   </p>
+  <br>
+</details>
+
+<details id="32--kde-plasma">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.2</b> <img src="https://cdn.simpleicons.org/kde/1D99F3" width="28" align="absmiddle" alt="KDE Logo"> <b>KDE Plasma</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Modular Sandbox</b><br>
+    KDE Plasma is the exact opposite of GNOME. Out of the box, it provides a highly familiar, traditional layout. But under the hood, it’s a modular beast built for developers and control freaks. You can tweak, script, and theme absolutely every pixel. It gives you 100% control, provided you are willing to spend the time building it.
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshots |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/85058274-f731-4d0f-9153-a2b91970201a" width="100%" alt="KDE Plasma App View"> |
+| <img src="https://github.com/user-attachments/assets/abbdde49-3d31-474e-b8dd-ef352b41eb43" width="100%" alt="KDE Plasma Main Desktop"> |
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **⚙️ Advanced Window Rules:** The KWin manager is a beast. You can strip title bars, force apps to open on specific monitors, or inject scripts like Polonium to turn it into a full tiling window manager. | **😵 Settings Hell:** Customization is deeply fragmented. To theme your desktop, you have to separately navigate Global Themes, Plasma Styles, Window Decorations, and Colors. |
+| **🪶 Surprisingly Light:** Despite the massive feature set, the modern Qt framework sips RAM (often <1GB idle). The UI is also decoupled; if the panel crashes, your open apps stay running. | **🔥 Background Hogs:** "Baloo", the native file indexer, is notorious for aggressively scanning directories and maxing out CPU until you manually intervene and disable it. |
+| **🤝 Elite Native Apps:** Dolphin (file manager) features built-in terminals. KDE Connect is baked in, flawlessly syncing your phone's clipboard, files, and notifications straight to your desktop. | **🎨 The UI Clash:** Because KDE is built on Qt, whenever you install a GNOME (GTK-based) app, its menus and window borders will usually look out of place. |
+| **🎮 Bleeding-Edge Tech:** It is the undisputed king of Wayland, featuring excellent fractional scaling for legacy XWayland apps, native Variable Refresh Rate (VRR), and stable HDR support. | |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Power users, tinkerers, Windows converts, and control freaks.<br>
+    🔗 <b>More Info:</b> <a href="https://kde.org/">kde.org</a>
+  </p>
 
   <br>
 </details>
+
+
+<details id="33--cinnamon">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.3</b> <img src="https://cdn.simpleicons.org/linuxmint/87A556" width="28" align="absmiddle" alt="Cinnamon Logo"> <b>Cinnamon</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Windows Refuge</b><br>
+    Cinnamon was built by the Linux Mint team for developers and users who hated GNOME's radical workflow changes. It runs on a modern GTK backend but strictly enforces a classic, Windows-style desktop paradigm: a bottom panel, a start menu, and a system tray. It is highly stable, entirely predictable, and requires absolutely zero muscle-memory retraining.
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshot |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/86d6b817-f305-4fa2-859f-6333f145178b" width="100%" alt="Cinnamon Desktop View"> |
+
+> 💡 **Note:** This screenshot is captured from the Linux Mint Cinnamon Edition.
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **⚙️ Zero Learning Curve:** It is the ultimate drop-in replacement for Windows. The start menu, taskbar, window snapping, and system tray behave exactly how you expect them to out of the box. | **🐢 Slow Wayland Adoption:** It is deeply rooted in the legacy X11 display server. While experimental Wayland support exists (6.0+), it is far behind KDE and GNOME for modern features like VRR or HDR. |
+| **🌶️ Curated "Spices":** You can customize the desktop using "Spices" (applets, desklets, and extensions). Unlike GNOME, these are centrally curated, meaning system updates rarely break your layout. | **🍔 Middle-Weight Class:** It is not a true lightweight environment. While it is generally lighter than pure GNOME, it consumes significantly more idle RAM and CPU overhead than XFCE or MATE. |
+| **📦 GTK Harmony:** Because it is built on GTK3 technologies, the vast majority of mainstream Linux apps naturally look native and perfectly integrated without requiring third-party theme hacking. | **👴 GTK4 Lag:** Because it heavily relies on older GTK3 libraries to maintain its classic look, newer GTK4/`libadwaita` apps from the GNOME ecosystem can look mismatched or jarring when opened. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Windows converts, dual-booters, and developers who just want their desktop to get out of the way.<br>
+    🔗 <b>More Info:</b> <a href="https://projects.linuxmint.com/cinnamon/">projects.linuxmint.com/cinnamon</a>
+  </p>
+
+  <br>
+</details>
+
+<details id="34--xfce">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.4</b> <img src="https://cdn.simpleicons.org/xfce/2284F2" width="28" align="absmiddle" alt="XFCE Logo"> <b>XFCE</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Lightweight Champion</b><br>
+    XFCE is the undisputed king of keeping older hardware alive. It is a traditional, no-nonsense desktop environment that prioritizes speed, stability, and low resource usage over flashy modern animations. While it might look a bit dated out of the box, it is rock-solid and stays completely out of your way.
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshot |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/92dd3a38-600c-4ec7-be8a-8a70de789fb5" width="100%" alt="XFCE Desktop View"> |
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🪶 Ultra Lightweight:** XFCE sips resources, frequently idling under 500 MB of RAM. It runs effortlessly on legacy hardware and virtual machines. | **👴 Dated Aesthetics:** Out of the box, it looks like a Linux desktop from 2010. Making it look modern requires heavily tweaking themes, panels, and icon packs. |
+| **🪨 Unbreakable Stability:** It follows a very conservative development cycle. Because it doesn't constantly chase bleeding-edge trends, your desktop will rarely break after an update. | **🐢 Slow Evolution:** That stability comes at a cost. Adopting new Linux technologies takes much longer; for instance, Wayland support is still a work in progress compared to KDE and GNOME. |
+| **🧩 Modular Simplicity:** Everything is broken into simple, standalone components (like the lightning-fast Thunar file manager). You can swap parts out without breaking the system. | **⚙️ Manual Labor:** It lacks some modern quality-of-life features built-in. You often have to manually configure advanced screen layouts or rely on third-party tools for custom animations. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Older hardware, minimalists, and users who prioritize strict stability over modern aesthetics.<br>
+    🔗 <b>More Info:</b> <a href="https://xfce.org/">xfce.org</a>
+  </p>
+
+  <br>
+</details>
+
+<details id="35--mate">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.5</b> <img src="https://raw.githubusercontent.com/mate-desktop/mate-desktop.org/master/files/mate.svg" width="28" align="absmiddle" alt="MATE Logo"> <b>MATE</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Ghost of GNOME Past</b><br>
+    When GNOME transitioned to its radical version 3 workflow, a massive portion of the Linux community revolted. MATE (pronounced <i>Mah-tay</i>) was born from that rebellion. It is a direct continuation of the classic GNOME 2 desktop environment. It provides a highly traditional, fast, and incredibly stable experience for users who believe a desktop should just be a panel, a menu, and your open windows.
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshots |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/77153986-8d2f-47dd-b621-638b6656f7a1" width="100%" alt="MATE Desktop View"> |
+| <img src="https://github.com/user-attachments/assets/d5e1be3a-4ef1-409c-aba3-3ca407ab983e" width="100%" alt="MATE System Monitor View"> |
+| <img src="https://github.com/user-attachments/assets/7ce0f854-74db-44e3-8d28-dcd629e1b7b1" width="100%" alt="MATE File Manager View"> |
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🪨 Time-Tested Stability:** Because it is built on years of mature, heavily tested code ported to GTK3, it is incredibly reliable. System updates will rarely break your layout or workflow. | **👴 Stuck in Time:** It intentionally looks and acts like a desktop from the late 2000s. Out of the box, it lacks modern animations, rounded corners, or sleek UI elements. |
+| **🚀 Resource Friendly:** It is extraordinarily light on system resources. It rivals XFCE in speed and runs perfectly on low-end laptops, virtual machines, or older hardware. | **🐢 Wayland Lag:** Because its architecture is rooted in older concepts, full, bug-free Wayland support is still heavily lagging behind the major modern desktops. |
+| **⚙️ Classic Customization:** You can easily add and move panels, or drop in traditional applets (like system monitors or weather tools) natively, without relying on fragile third-party JavaScript extensions. | **📦 App Ecosystem Drift:** As the broader GNOME ecosystem aggressively moves toward GTK4 and `libadwaita`, bringing modern apps into MATE often results in jarring visual inconsistencies. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Classic Linux veterans, older hardware, and anyone who thinks GNOME peaked at version 2.<br>
+    🔗 <b>More Info:</b> <a href="https://mate-desktop.org/">mate-desktop.org</a>
+  </p>
+
+  <br>
+</details>
+
+<details id="36--budgie">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.6</b> <img src="https://cdn.simpleicons.org/solus/5294E2" width="28" align="absmiddle" alt="Budgie Logo"> <b>Budgie</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Elegant Middle Ground</b><br>
+    Budgie was originally built for the Solus distribution but is now developed independently. It strikes a perfect balance by using modern GNOME technologies under the hood while offering a classic, familiar desktop layout. It is famous for "Raven"—a sleek, slide-out sidebar that handles notifications, media controls, and applets in one unified space.
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshots |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/9c7a7591-37e0-4fc0-bf4f-b801c7798f91" width="100%" alt="Budgie Desktop View 1"> |
+| <img src="https://github.com/user-attachments/assets/68fa24e5-2746-432f-90b0-d7c77e828073" width="100%" alt="Budgie Desktop View 2"> |
+| <img src="https://github.com/user-attachments/assets/73173a23-6da4-48fd-b93a-37197aef1f70" width="100%" alt="Budgie Desktop View 3"> |
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🦅 The Raven Sidebar:** A highly polished, slide-out panel (similar to macOS or modern Windows) that makes managing notifications, calendars, and quick settings completely effortless. | **⛓️ The GNOME Ball and Chain:** Because it relies heavily on GNOME's underlying stack, whenever GNOME pushes a massive update, it frequently breaks parts of Budgie, forcing the developers to play catch-up. |
+| **📦 Modern yet Familiar:** It leverages modern GTK graphics so native apps look beautiful, but it completely ignores GNOME's restrictive, keyboard-heavy workflow in favor of a traditional taskbar and menu. | **🚧 The Wayland Transition:** Budgie is currently in a massive architectural transition. Full, stable Wayland support is actively being built, but it currently lags behind the big players like KDE and pure GNOME. |
+| **🪶 Snappy Performance:** By stripping away the heavy JavaScript shell that powers GNOME, Budgie feels noticeably faster and consumes fewer system resources while maintaining a very sleek, modern aesthetic. | **🧩 Borrowed Ecosystem:** Unlike KDE or GNOME, it doesn't have a massive library of its own native applications. It largely relies on borrowing software like file managers and settings panels from the GNOME ecosystem. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Users who want a sleek, modern, GTK-based desktop but strongly prefer a traditional Windows-style layout.<br>
+    🔗 <b>More Info:</b> <a href="https://buddiesofbudgie.org/">buddiesofbudgie.org</a>
+  </p>
+
+  <br>
+</details>
+
+<details id="37--pantheon">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.7</b> <img src="https://cdn.simpleicons.org/elementary/64BAED" width="28" align="absmiddle" alt="Pantheon Logo"> <b>Pantheon</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Curated macOS Experience</b><br>
+    Pantheon is the bespoke desktop environment built specifically for elementary OS. It is hyper-focused on clean typography, smooth animations, and a strict, distraction-free aesthetic. If you want a beautifully curated, macOS-like experience out of the box that requires absolutely zero setup, this is it. However, it is incredibly opinionated—you do things its way, or you don't do them at all.
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshot |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/d2d6cf72-bb65-47df-adec-86192181ae45" width="100%" alt="Pantheon Desktop View"> |
+
+> 💡 **Note:** This screenshot was taken from the official elementary OS website, as Pantheon is the default desktop environment built specifically for it.
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🎨 Stunning Aesthetics:** Out of the box, it is arguably the best-looking Linux desktop. The dock, the top panel, and the native GTK apps share a pixel-perfect, highly cohesive design language. | **🧱 Locked Down:** Customization is almost non-existent. There is no native way to change themes, fonts, or even add desktop icons without relying on third-party tweak tools. |
+| **🎯 Zero Distractions:** The workflow is strictly curated to keep you focused. It forces a minimalist approach, heavily relying on multiple workspaces and a clean application grid. | **🍎 The Missing Minimize:** Just like early GNOME, it stubbornly refuses to include a minimize button by default, forcing users to adapt to its specific window management philosophy. |
+| **🛍️ Curated Ecosystem:** It features "AppCenter," an incredible boutique software store filled with purpose-built, native applications that perfectly match the desktop's look and feel. | **🐌 Tied to elementary OS:** While you *can* install Pantheon on other distros like Arch or Fedora, it is a notoriously buggy and painful process. It really only works flawlessly on elementary OS. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> macOS converts, minimalists, and users who want a beautiful system that stops them from endlessly tinkering.<br>
+    🔗 <b>More Info:</b> <a href="https://elementary.io/">elementary.io</a>
+  </p>
+
+  <br>
+</details>
+
+<details id="38--lxqt">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.8</b> <img src="https://cdn.simpleicons.org/lubuntu/0068C8" width="28" align="absmiddle" alt="LXQt Logo"> <b>LXQt</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Absolute Featherweight</b><br>
+    LXQt is the undisputed champion of low-end hardware. Born from the merger of the LXDE and Razor-qt projects, it is designed strictly to be as lightweight and fast as humanly possible without entirely sacrificing a graphical interface. It frequently out-performs even XFCE, making it the ultimate safety net for ancient laptops and highly constrained virtual machines. 
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshots |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/c18c66ae-093b-4f9f-b2dd-76084bd1a932" width="100%" alt="LXQt Desktop View 1"> |
+| <img src="https://github.com/user-attachments/assets/982b7c88-3f3d-4373-bff6-f285f04be6f1" width="100%" alt="LXQt Desktop View 2"> |
+| <img src="https://github.com/user-attachments/assets/f3546f3f-8ae0-4159-8e24-1444372a8f7c" width="100%" alt="LXQt Wayland Labwc View"> |
+
+> 💡 **Note:** These screenshots were taken directly from the official LXQt website.
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🪶 Unmatched Efficiency:** It routinely idles under 300 MB of RAM. It keeps systems alive that would instantly choke and crash on modern GNOME or Windows. | **🦴 Barebones Aesthetic:** It is purely functional. Expect zero flashy animations, no rounded corners, and a default aesthetic that looks like a late 90s operating system. |
+| **⚡ Modern Underpinnings:** Despite its retro look, it is built on the modern Qt framework (the same tech behind KDE Plasma), ensuring under-the-hood speed and ongoing development. | **🛠️ Assembly Required:** Because it is so intensely stripped back, it lacks many native GUI configuration tools. Advanced setup often requires digging into config files or external tools. |
+| **🧩 Extreme Modularity:** It does not enforce a specific window manager. You can easily pair it with a classic stack like Openbox or modern Wayland compositors like Labwc. | **🎨 Inconsistent Theming:** Making GTK-based apps (like mainstream browsers or GNOME software) visually match this Qt environment requires manually installing and configuring compatibility engines. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Ancient hardware, ultra-minimalists, and users who view system resources as precious cargo.<br>
+    🔗 <b>More Info:</b> <a href="https://lxqt-project.org/">lxqt-project.org</a>
+  </p>
+
+  <br>
+</details>
+
+### Tiling Window Managers (TWMs)
+
+While these aren't full desktop environments as explained earlier, they offer incredibly unique, highly customizable visual layouts built strictly for power users.
+
+<br>
+
+<details id="39--hyprland">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.9</b> <img src="https://cdn.simpleicons.org/hyprland/00A489" width="28" align="absmiddle" alt="Hyprland Logo"> <b>Hyprland</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Modern Eye-Candy King</b><br>
+    Hyprland completely shattered the stereotype that tiling window managers have to look like boring, 1990s hacker terminals. It is a highly dynamic, Wayland-native compositor that delivers fluid, buttery-smooth animations, window blur, and rounded corners out of the box, all while maintaining the blazing speed and keyboard-driven efficiency of a traditional window manager.
+  </p>
+
+  <br>
+
+| 🎥 Interface Showcase |
+| :--- |
+| <video src="https://github.com/user-attachments/assets/9468392a-e3f3-447c-829a-418dbb90037a" autoplay loop muted playsinline width="100%"></video> |
+
+> 💡 **Note:** This video showcases a stunning custom setup ("rice") by **[@end-4](https://github.com/end-4/dots-hyprland)**. If you want your Hyprland to look exactly like this, be sure to view his **[dotfiles](https://github.com/end-4/dots-hyprland)** for the setup configuration!
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **✨ Visual Polish:** It is the undisputed king of modern aesthetics in the TWM space. Fluid swipe animations, deep blur effects, and dynamic window shadows are all native and heavily hardware-accelerated. | **🛠️ Heavy Assembly Required:** Like all TWMs, it does not come with a taskbar, start menu, or settings app. You must manually install and configure third-party components (like Waybar or Rofi) via text files. |
+| **⚡ Wayland Native:** Built strictly for the modern Wayland display server, it offers excellent multi-monitor support, high-refresh-rate gaming, and native fractional scaling. | **🩸 Bleeding Edge:** It is under rapid, aggressive development. While features arrive quickly, frequent updates can occasionally break your customized configuration scripts or third-party plugins. |
+| **⚙️ Dynamic Tiling:** It intelligently manages window placement, automatically splitting your screen perfectly. You can easily toggle windows to "float" above the grid with a simple keyboard shortcut. | **🟩 The NVIDIA Tax:** While the developer actively improves support, running Wayland compositors on NVIDIA graphics cards historically requires extra configuration to avoid graphical glitches or screen tearing. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> "Ricing" enthusiasts, power users, and anyone who wants ultimate keyboard efficiency without sacrificing stunning, modern visual effects.<br>
+    🔗 <b>More Info:</b> <a href="https://hyprland.org/">hyprland.org</a>
+  </p>
+
+  <br>
+</details>
+
+<details id="310--sway">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.10</b> <img src="https://cdn.simpleicons.org/sway/E95420" width="28" align="absmiddle" alt="Sway Logo"> <b>Sway</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Modern i3 Successor</b><br>
+    Sway is a tiling window manager explicitly built to be a drop-in, native Wayland replacement for the legendary i3wm. It takes everything that made i3 great—the incredible speed, the pure keyboard-driven workflow, and the straightforward configuration—and brings it into the modern, tear-free Wayland era.
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshot |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/b10d3669-20af-4cae-920a-8241c65704ac" width="100%" alt="Configured Sway Desktop View"> |
+
+> 💡 **Note:** This screenshot showcases a classic custom setup ("rice") by Reddit user **-lemniscat-** to demonstrate what Sway *can* look like. Out of the box, "vanilla" Sway is extremely barebones—you are greeted with a black screen and a very primitive bar until you configure it yourself.
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🔄 i3 Compatibility:** If you already use i3, migrating is nearly effortless. Sway reads existing i3 configuration files directly, meaning you can carry your entire workflow over immediately. | **🦴 Barebones Default:** It does absolutely no aesthetic heavy lifting for you. Adding wallpapers, styling the status bar, and setting up an app launcher is 100% on your shoulders. |
+| **⚡ Wayland Native:** Because it leverages Wayland, you get a buttery-smooth, tear-free graphical experience with native support for multi-monitor setups running at different refresh rates. | **🔌 The Wayland Transition:** While Wayland is the future, some older X11-specific applications or niche screen-sharing tools might require workarounds (like Xwayland) to function properly. |
+| **🪶 Ultra Lightweight:** It requires practically zero system resources to run. It leaves almost all your CPU and RAM entirely available for your applications and workflow. | **⌨️ Steep Learning Curve:** There is absolutely no hand-holding. If you are used to clicking, dragging, and minimizing windows with a mouse, adapting to a pure keyboard workflow takes significant practice. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> i3 veterans ready to move to Wayland, minimalists, and power users who navigate strictly via keyboard shortcuts.<br>
+    🔗 <b>More Info:</b> <a href="https://swaywm.org/">swaywm.org</a>
+  </p>
+
+  <br>
+</details>
+
+<details id="311--i3wm">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.11</b> <img src="https://cdn.simpleicons.org/i3/4C7A99" width="28" align="absmiddle" alt="i3wm Logo"> <b>i3wm</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Timeless Classic Workhorse</b><br>
+    If tiling window managers were a religion, i3 would be its foundational text. It is one of the most legendary, mature, and widely used window managers in the Linux ecosystem. It runs on the older X11 display server and focuses entirely on simplicity, rock-solid stability, and reading plain-text configuration files that are incredibly easy to understand and modify.
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshots |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/1a0047d2-7369-409e-96fa-c85094d3f661" width="100%" alt="i3wm Desktop View 1"> |
+| <img src="https://github.com/user-attachments/assets/ebd25dae-1c74-4cad-b758-bdb945aba792" width="100%" alt="i3wm Desktop View 2"> |
+
+> 💡 **Note:** These screenshots showcase the default, foundational look of the environment and were sourced directly from the official i3wm website.
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **📚 Legendary Documentation:** It boasts arguably the best, most readable user guide of any window manager. If you want to customize something, the official documentation explains exactly how to do it in plain English. | **👴 The X11 Anchor:** It strictly uses the older X11 display server. It does not (and will not) support the modern Wayland protocol, meaning you miss out on newer display tech and fluid multi-monitor scaling. |
+| **🪨 Bulletproof Stability:** Because it has been heavily refined for well over a decade, it practically never crashes. It is the definition of a stable, reliable daily driver that never interrupts your workflow. | **💔 Screen Tearing:** Because it relies on X11 and lacks a built-in compositor, you may experience screen tearing while watching videos unless you manually install and configure an external tool (like Picom). |
+| **🛠️ Plain Text Config:** Customization is done via a single, simple text file. There are no complicated programming languages required—just straightforward commands like `bindsym $mod+Enter exec terminal`. | **🦴 Barebones Visuals:** Like Sway, it gives you nothing out of the box. Setting up a wallpaper, a functional status bar, and an application launcher is a project you must assemble yourself. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Programmers, minimalists, users on ultra-low-end hardware, and power users who prefer the vast maturity of the X11 ecosystem.<br>
+    🔗 <b>More Info:</b> <a href="https://i3wm.org/">i3wm.org</a>
+  </p>
+
+  <br>
+</details>
+
+<br>
+
+###  Wrapping Up the Tour
+The beauty of Linux is that **none of these choices are permanent**. You are never locked in. If you start with GNOME and decide you hate it, you can install KDE Plasma right alongside it and switch between them on your login screen. The desktop environment is just a modular layer on top of your operating system—you can change it whenever you want.
 
