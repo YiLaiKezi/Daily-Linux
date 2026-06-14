@@ -225,64 +225,51 @@ Not everyone wants a full "desktop environment." Power users who want absolute m
 > 
 <br>
 
-## 3.0 📸 Visual Tour: Exploring the Environments
+## 3.0 🎨 The Visual Tour (Desktop Environments)
 
-While reading about different desktop environments gives you a solid foundation, seeing them in action makes all the difference. Your interface is where you will spend all of your time on the computer, so finding a layout that feels intuitive and comfortable for your daily workflow is essential. 
-
-Below, we will take a visual look into each of these major environments, breaking down their unique designs alongside the specific **Pros and Cons** they offer to help you 
-choose the perfect daily driver.
-
----
-
-## 3.1 <img src="https://cdn.simpleicons.org/gnome/4A86CF" width="35" align="top" alt="GNOME Logo"> GNOME
-
-<p>
-  <b>🌟 The "Apple" of the Linux World</b><br>
-  GNOME is sleek, highly polished, and incredibly opinionated. If you are looking for a traditional Windows-style Start menu, turn back now. GNOME completely ditches the classic desktop layout in favor of a modern, distraction-free "Activities Overview". It is built for people who love using keyboard shortcuts and buttery-smooth trackpad gestures to zip between workspaces. You either love its workflow, or you hate it—there is almost no in-between.
-</p>
+Below is a straightforward, technical breakdown of the available Desktop Environments. Expand each section to see their layouts, the underlying mechanics, and the exact reasons they might drive you crazy.
 
 <br>
+ 
+</details>
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/c5c1a564-e4af-45a0-ad59-4cec9d482ec3" width="100%" alt="GNOME Desktop View">
-  <br><br>
-  <img src="https://github.com/user-attachments/assets/853ba973-744e-4e91-9048-3196919e77e6" width="100%" alt="GNOME Activities View">
-  <br><br>
-  <img src="https://github.com/user-attachments/assets/d8e4806a-858c-4845-8229-e947197cfef3" width="100%" alt="GNOME App Grid View">
-</div>
+<details>
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.1</b> <img src="https://cdn.simpleicons.org/gnome/4A86CF" width="28" align="absmiddle" alt="GNOME Logo"> <b>GNOME</b>
+  </summary>
 
-<br>
+  <br>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">✨ The Good Stuff</h3>
-      <hr>
-      <b>🚀 Keyboard Ninja Workflow</b><br>
-      Once you learn the shortcuts, flying through workspaces, searching for files, and launching apps feels ridiculously fast and fluid.<br><br>
-      <b>🖐️ Trackpad Magic</b><br>
-      If you are on a laptop, GNOME features the absolute best 1:1 swipe gestures in the Linux world. It feels incredibly premium and responsive.<br><br>
-      <b>📦 Incredible App Ecosystem</b><br>
-      It comes with a fantastic suite of beautifully designed, native apps out of the box (like Nautilus for files) that all share the exact same clean aesthetic.<br><br>
-      <b>🎨 Next-Level Aesthetics</b><br>
-      While it looks solid stock, it becomes dynamic and gorgeous when you tap into community extensions. Plugins like <i>Blur my Shell</i> add glassmorphism and stunning blur effects that make the UI look incredibly modern.
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">⚠️ The Harsh Truth</h3>
-      <hr>
-      <b>🍔 Heavier Resource Usage</b><br>
-      It is a heavy hitter. It uses noticeably more background memory and CPU than lighter desktops, making it less ideal for ancient hardware.<br><br>
-      <b>🧱 "My Way or the Highway"</b><br>
-      Pure GNOME hides the minimize button and desktop icons to force you into using workspaces. <i>(Note: Ubuntu adds them back, but on Fedora/Arch, you need to install a "Tweaks" app to get them).</i><br><br>
-      <b>🧩 Extension Roulette</b><br>
-      Those awesome aesthetics come with a catch. Because extensions inject code directly into the shell, major GNOME system updates will frequently break your favorite blur plugins until developers patch them.
-    </td>
-  </tr>
-</table>
+  <p>
+    <b>🌟 The Opinionated Workspace</b><br>
+    GNOME ditches the traditional taskbar entirely. It forces a modern, distraction-free workflow built heavily around virtual workspaces, the keyboard, and trackpad gestures. You either adapt to its specific workflow, or you fight it constantly.
+  </p>
 
-<p align="center">
-  <b>🎯 Best For:</b> Minimalists, keyboard ninjas, and anyone looking for a highly polished, premium interface out of the box.<br>
-  🔗 <b>More Info:</b> <a href="https://www.gnome.org/">gnome.org</a>
-</p>
+  <br>
 
-<br>
+| 📸 Interface Screenshots |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/c5c1a564-e4af-45a0-ad59-4cec9d482ec3" width="100%" alt="GNOME Desktop View"> |
+| <img src="https://github.com/user-attachments/assets/853ba973-744e-4e91-9048-3196919e77e6" width="100%" alt="GNOME Activities View"> |
+| <img src="https://github.com/user-attachments/assets/d8e4806a-858c-4845-8229-e947197cfef3" width="100%" alt="GNOME App Grid View"> |
+
+> 💡 **Note:** These screenshots are captured from Ubuntu 26.04 LTS. Vanilla GNOME looks slightly different out of the box, as Ubuntu applies custom layout extensions and panel tweaks by default.
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🚀 Keyboard-First Navigation:** Hit `Super`, type two letters, hit `Enter`. Switching apps and workspaces is lightning fast once you build the muscle memory. | **🧱 Locked Down:** Pure GNOME ships without desktop icons, system tray icons, or even a minimize button. You have to install a "Tweaks" app just to restore basic OS features. |
+| **🖐️ Elite Gestures:** Running on the Mutter compositor (Wayland), it delivers buttery 1:1 trackpad swipes that are completely unmatched in the Linux space. | **🍔 JavaScript Overhead:** The desktop shell runs on a JavaScript engine (GJS). It consumes noticeably more idle RAM and CPU than other environments. |
+| **📦 UI Consistency:** Thanks to GTK4 and `libadwaita`, native apps share a strictly enforced design language. It looks incredibly cohesive out of the box. | **💣 Fragile Extensions:** You can add features via community extensions, but because they patch live shell code, system updates frequently break them. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Laptop users, minimalists, and developers who refuse to touch the mouse.<br>
+    🔗 <b>More Info:</b> <a href="https://www.gnome.org/">gnome.org</a>
+  </p>
+
+  <br>
+</details>
+
