@@ -769,17 +769,27 @@ Here is the ultimate cheat sheet on exactly which Linux Distribution you should 
 <br>
 
 | 🖥️ Your Chosen Desktop | 💿 The Recommended Distro | 🧠 Why This Match? |
-| :--- | :--- | :--- |
-| **GNOME** | **Fedora Workstation** <br>*(or Ubuntu)* | Fedora ships the purest, most "vanilla" version of GNOME exactly as the developers intended. Ubuntu is also a great choice, but it heavily modifies GNOME to look more like a traditional desktop. |
-| **KDE Plasma** | **Kubuntu** <br>*(or Fedora KDE)* | Kubuntu takes the incredibly stable and beginner-friendly Ubuntu base and slaps a beautifully configured KDE Plasma desktop on top of it. It is rock-solid. |
-| **Cinnamon** | **Linux Mint (Cinnamon Edition)** | Cinnamon was literally created by the Linux Mint team. There is nowhere else it runs smoother, integrates better, or feels more complete than right here. |
-| **XFCE** | **Linux Mint (XFCE Edition)** | While many distros use XFCE, Mint's version is heavily polished and pre-configured to look much more modern out of the box so you don't have to tweak it yourself. |
-| **MATE** | **Linux Mint (MATE Edition)** | Once again, the Mint team excels at polishing classic desktop environments. It provides a flawless, retro-but-refined MATE experience. |
-| **Budgie** | **Ubuntu Budgie** <br>*(or Solus)* | Ubuntu Budgie combines the sleek, Raven-sidebar goodness of Budgie with the massive software library and massive community support of Ubuntu. |
-| **Pantheon** | **elementary OS** | You have no other choice. Pantheon is tailor-made specifically for elementary OS. Trying to install it anywhere else will result in endless bugs and a broken system. |
-| **LXQt** | **Lubuntu** | Lubuntu was built from the ground up specifically to showcase LXQt. It transforms any ancient, dying laptop into a fast, usable machine. |
+| :---: | :--- | :--- |
+| <img src="https://cdn.simpleicons.org/gnome/4A86CF" width="32" alt="GNOME"><br>**GNOME** | **Fedora Workstation** <br>*(or Ubuntu)* | Fedora ships the purest, most "vanilla" version of GNOME exactly as the developers intended. Ubuntu is also a great choice, but it heavily modifies GNOME to look more like a traditional desktop. |
+| <img src="https://cdn.simpleicons.org/kde/1D99F3" width="32" alt="KDE"><br>**KDE Plasma** | **Kubuntu** <br>*(or Fedora KDE)* | Kubuntu takes the incredibly stable and beginner-friendly Ubuntu base and slaps a beautifully configured KDE Plasma desktop on top of it. It is rock-solid. |
+| <img src="https://cdn.simpleicons.org/linuxmint/87A556" width="32" alt="Cinnamon"><br>**Cinnamon** | **Linux Mint (Cinnamon Edition)** | Cinnamon was literally created by the Linux Mint team. There is nowhere else it runs smoother, integrates better, or feels more complete than right here. |
+| <img src="https://cdn.simpleicons.org/deepin/0050FF" width="32" alt="Deepin"><br>**Deepin** | **Deepin OS** | Deepin is built from the ground up specifically for Deepin OS. While it can technically be installed on other distributions, it is notoriously unstable outside its native home, making Deepin OS the only way to get a flawless experience. |
+| <img src="https://cdn.simpleicons.org/xfce/2284F2" width="32" alt="XFCE"><br>**XFCE** | **Linux Mint (XFCE Edition)** | While many distros use XFCE, Mint's version is heavily polished and pre-configured to look much more modern out of the box so you don't have to tweak it yourself. |
+| <img src="https://raw.githubusercontent.com/mate-desktop/mate-desktop.org/master/files/mate.svg" width="32" alt="MATE"><br>**MATE** | **Linux Mint (MATE Edition)** | Once again, the Mint team excels at polishing classic desktop environments. It provides a flawless, retro-but-refined MATE experience. |
+| <img src="https://cdn.simpleicons.org/solus/5294E2" width="32" alt="Budgie"><br>**Budgie** | **Ubuntu Budgie** <br>*(or Solus)* | Ubuntu Budgie combines the sleek, Raven-sidebar goodness of Budgie with the massive software library and massive community support of Ubuntu. |
+| <img src="https://cdn.simpleicons.org/elementary/64BAED" width="32" alt="Pantheon"><br>**Pantheon** | **elementary OS** | You have no other choice. Pantheon is tailor-made specifically for elementary OS. Trying to install it anywhere else will result in endless bugs and a broken system. |
+| <img src="https://cdn.simpleicons.org/lubuntu/0068C8" width="32" alt="LXQt"><br>**LXQt** | **Lubuntu** | Lubuntu was built from the ground up specifically to showcase LXQt. It transforms any ancient, dying laptop into a fast, usable machine. |
 
 <br>
+
+### 🛠️ What about Tiling Window Managers (TWMs)?
+If you chose **Hyprland**, **Sway**, or **i3wm**, the rules are a bit different. Because these are built for power users, they rarely come fully pre-configured on beginner distros. 
+
+If you want to use a TWM, your best bet is to use an intermediate, DIY-friendly distro like **EndeavourOS** or **Arch Linux**. These distros provide the perfect barebones foundation for you to install a window manager and start writing your own custom configuration files from scratch.
+
+<br>
+
+
 
 ### What about Tiling Window Managers (TWMs)?
 If you chose **Hyprland**, **Sway**, or **i3wm**, the rules are a bit different. Because these are built for power users, they rarely come fully pre-configured on beginner distros. 
@@ -826,6 +836,14 @@ Instead of flashing a single operating system, you install Ventoy to your USB dr
 When you boot your computer from the USB drive, Ventoy greets you with a customized menu listing every single ISO you copied over. You just use your arrow keys to pick the one you want to test and hit enter. 
 
 > 💡 **The Ultimate Test Drive Strategy:** Grab a 16GB or 32GB USB drive, install Ventoy on it, and drag the `.iso` files for *Fedora Workstation (GNOME)*, *Kubuntu (KDE)*, and *Linux Mint (Cinnamon)* onto it. You can now effortlessly test-drive the top three desktop environments sequentially without ever reformating your drive!
+
+<br>
+
+## 7.0 ⚖️ The Big Picture: Why Switch? (And Why Stay?)
+
+You have seen the visual tour, learned about the display servers, and know exactly which distribution to download. But before you take the plunge, it is important to understand the broader landscape. 
+
+Why are millions of everyday users suddenly ditching Windows and macOS to install Linux? And conversely, what are the hard truths about why some people *cannot* make the switch just yet?
 
 <br>
 
