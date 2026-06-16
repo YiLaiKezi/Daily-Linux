@@ -187,6 +187,10 @@ While there are dozens of interfaces out there, these are the heavyweights that 
     <td><b>Deepin</b><br>Widely considered the most visually stunning, "Apple-like" interface in the Linux ecosystem out of the box. It features a gorgeous control center, heavy blur effects, and highly refined native applications.</td>
   </tr>
   <tr>
+    <td align="center" width="10%"><img src="https://cdn.simpleicons.org/popos/48B9C7" width="60" alt="COSMIC" /></td>
+    <td><b>COSMIC</b><br>The highly anticipated next-gen environment built entirely from scratch in Rust. It perfectly blends a traditional floating desktop with advanced, beginner-friendly auto-tiling, offering a hyper-fast and deeply customizable experience. <i>(Default on Pop!_OS)</i>.</td>
+  </tr>
+  <tr>
     <td align="center" width="10%"><img src="https://cdn.simpleicons.org/xfce/2284F2" width="60" alt="XFCE" /></td>
     <td><b>XFCE</b><br>The lightweight champion. A fast, traditional interface designed to use incredibly low system memory and battery, making it perfect for reviving old hardware or keeping your system ridiculously snappy.</td>
   </tr>
@@ -209,6 +213,7 @@ While there are dozens of interfaces out there, these are the heavyweights that 
 </table>
 
 <br>
+
 
 ### 2.7 🛠️ Special Category: Tiling Window Managers (TWMs)
 
@@ -586,6 +591,43 @@ Below is a straightforward, technical breakdown of the available Desktop Environ
   <br>
 </details>
 
+<details id="310--cosmic">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>3.10</b> <img src="https://cdn.simpleicons.org/popos/48B9C7" width="28" align="absmiddle" alt="COSMIC Logo"> <b>COSMIC</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Next-Gen Hybrid</b><br>
+    COSMIC (Computer Operating System Main Interface Components) is the groundbreaking desktop environment built entirely from scratch in Rust by the team at System76. Designed to replace GNOME on Pop!_OS, it recently hit its highly anticipated stable release. It offers a hyper-fast, deeply customizable experience that perfectly blends a traditional floating desktop with advanced, beginner-friendly auto-tiling.
+  </p>
+
+  <br>
+
+| 📸 Interface Screenshots |
+| :--- |
+| <img src="https://github.com/user-attachments/assets/411d3e14-1e2b-49a2-bc3f-fe3671a5b558" width="100%" alt="cosmic-app-drawer-dock"> |
+| <img src="https://github.com/user-attachments/assets/a78fb018-20ad-4f6b-a1eb-0e9506812042" width="100%" alt="COSMIC_Epoch_1 0 0_alpha_with_apps"> |
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🦀 Built in Rust:** Because it is written entirely in Rust, it is incredibly fast, exceptionally stable, and highly resistant to memory leaks or crashing. | **🐣 Maturing Ecosystem:** While it is officially stable, it is still relatively new to the Linux world. Some of its native applications (like the file manager and terminal) are continuously gaining the advanced features that power users expect from older DEs. |
+| **🗂️ Native Auto-Tiling:** It features a brilliant built-in tiling mode that snaps windows into a grid seamlessly. You can toggle it on or off at any time with a single click—no complex configuration files required. | **🐧 Pop!_OS Centric:** While the community actively packages it for distributions like Arch and Fedora, it is explicitly designed, optimized, and heavily tested for Pop!_OS first and foremost. |
+| **🧩 Unbreakable Customization:** Unlike GNOME, where updates frequently break third-party extensions, COSMIC builds deep modular customization (panels, docks, applets, and theming) directly into its core system. | **⚙️ Early Adoption Quirks:** Being fresh out of its beta phase, some niche features or complex multi-monitor scaling setups might still encounter the occasional visual bug or lag as the platform matures. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Pop!_OS fans, power users who want the speed of a tiling window manager without the steep learning curve, and developers.<br>
+    🔗 <b>More Info:</b> <a href="https://system76.com/cosmic">system76.com/cosmic</a>
+  </p>
+
+  <br>
+</details>
+
 
 
 ### Tiling Window Managers (TWMs)
@@ -594,9 +636,9 @@ While these aren't full desktop environments as explained earlier, they offer in
 
 <br>
 
-<details id="310--hyprland">
+<details id="311--hyprland">
   <summary style="font-size: 24px; cursor: pointer;">
-    <b>3.10</b> <img src="https://cdn.simpleicons.org/hyprland/00A489" width="28" align="absmiddle" alt="Hyprland Logo"> <b>Hyprland</b>
+    <b>3.11</b> <img src="https://cdn.simpleicons.org/hyprland/00A489" width="28" align="absmiddle" alt="Hyprland Logo"> <b>Hyprland</b>
   </summary>
 
   <br>
@@ -632,9 +674,9 @@ While these aren't full desktop environments as explained earlier, they offer in
   <br>
 </details>
 
-<details id="311--sway">
+<details id="312--sway">
   <summary style="font-size: 24px; cursor: pointer;">
-    <b>3.11</b> <img src="https://cdn.simpleicons.org/sway/E95420" width="28" align="absmiddle" alt="Sway Logo"> <b>Sway</b>
+    <b>3.12</b> <img src="https://cdn.simpleicons.org/sway/E95420" width="28" align="absmiddle" alt="Sway Logo"> <b>Sway</b>
   </summary>
 
   <br>
@@ -670,9 +712,9 @@ While these aren't full desktop environments as explained earlier, they offer in
   <br>
 </details>
 
-<details id="312--i3wm">
+<details id="313--i3wm">
   <summary style="font-size: 24px; cursor: pointer;">
-    <b>3.12</b> <img src="https://cdn.simpleicons.org/i3/4C7A99" width="28" align="absmiddle" alt="i3wm Logo"> <b>i3wm</b>
+    <b>3.13</b> <img src="https://cdn.simpleicons.org/i3/4C7A99" width="28" align="absmiddle" alt="i3wm Logo"> <b>i3wm</b>
   </summary>
 
   <br>
@@ -920,5 +962,134 @@ While it sounds perfect, Microsoft explicitly designs Windows with the assumptio
 *   **Time Travel:** Because Windows and Linux calculate hardware system time differently out of the box, dual booting will frequently cause your system clock to desynchronize by a few hours every time you switch operating systems.
 
 > 💡 **The Golden Rule of Dual Booting:** If you are going to do it, **do not share a single hard drive**. Buy a second, cheap M.2 or SATA SSD. Install Windows on Drive A, and Linux on Drive B. When installing Linux, physically disconnect the Windows drive so they cannot intermingle their boot files. You can then just use your motherboard's F12 boot menu to safely swap between them.
+
+<br>
+
+## 8.0 🚪 The Bouncer of Your PC: Bootloaders Explained
+
+When you turn on your computer, your motherboard doesn't automatically know how to launch an operating system. It immediately hands control over to a **Bootloader**—the ultimate bouncer standing at the front door of your hardware. Its sole job is to scan your hard drives, present you with a menu of installed operating systems, and load your choice into the system memory.
+
+If you are dual-booting, this menu is where you make your choice every time you boot up. Click on any of the major bootloaders below to see their full breakdown:
+
+<br>
+
+<details id="81--grub">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>8.1</b> <b>GRUB (GRand Unified Bootloader)</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Undisputed Universal King</b><br>
+    GRUB is the default bootloader shipped with 99% of mainstream Linux distributions. It is an absolute tank capable of booting almost anything, handling highly complex nested partitions, and recovering broken systems from a raw command-line interface.
+  </p>
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🛠️ Bulletproof Reliability:** It handles complex multi-boot configurations effortlessly and includes a rescue shell to fix unbootable systems. | **📟 Aesthetic Nightmare:** Out of the box, it looks like a 1990s server terminal. The default theme is incredibly dated. |
+| **🔍 Automatic OS Detection:** Features `os-prober`, which automatically scans your drives and adds Windows or other Linux distros to the boot menu without manual configuration. | **🌀 Convoluted Setup:** Modifying its master configuration files (`/etc/default/grub`) requires generating scripts, making manual tweaks highly intimidating for beginners. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Beginners, production environments, and complex multi-boot setups on shared drives.<br>
+  </p>
+
+  <br>
+</details>
+
+
+
+<details id="82--systemd-boot">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>8.2</b> <b>systemd-boot</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Blazing Fast Speed Demon</b><br>
+    Built straight into the modern Linux <code>systemd</code> initialization suite, systemd-boot completely bypasses complex menu scripting. It favors ultra-clean, separate text files for each individual kernel configuration, resulting in instant startup responses.
+  </p>
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **⚡ Instant Boot Speeds:** Noticeably faster than GRUB because it does not waste time loading complex graphics, modules, or heavy scripts. | **🛑 Strictly Modern UEFI:** Completely lacks backwards compatibility. It will not work on older hardware utilizing a legacy Master Boot Record (MBR) BIOS. |
+| **📝 Dead Simple Configuration:** Uses incredibly clean, human-readable text entries. Adding or deleting a boot entry takes seconds and zero terminal generation tools. | **⬛ Zero Visual Flare:** It offers virtually zero graphical customization. Your boot menu will strictly be raw monochrome text on a flat black screen. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Minimalists, modern UEFI machines, and users who want maximum boot velocity without visual clutter.<br>
+  </p>
+
+  <br>
+</details>
+
+
+
+<details id="83--refind">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>8.3</b> <b>rEFInd</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Visually Stunning Masterpiece</b><br>
+    rEFInd is a highly graphical boot manager explicitly built to replace ugly text-only options. It visually scans your storage drives at every single launch, presenting your operating systems as clean, beautiful, customizable icons.
+  </p>
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🎨 Gorgeous Themes:** Supports extensive graphical custom themes, high-resolution background art, and fully functional mouse selection right out of the box. | **🔐 Secure Boot Friction:** Getting it configured alongside strict Windows Secure Boot parameters can trigger security blocks, requiring manual machine key enrollment. |
+| **🔄 On-The-Fly Scanning:** Dynamically discovers new operating systems or kernels on external USB drives
+ instantly at boot time without needing file rebuilds. | **🐌 Extra Overhead:** Because it stops to visually probe hardware and render high-resolution assets, it adds a small delay to your total boot time. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Desktop aesthetics purists, Hackintosh dual-booters, and visual layout lovers.<br>
+  </p>
+
+  <br>
+</details>
+
+
+
+<details id="84--limine">
+  <summary style="font-size: 24px; cursor: pointer;">
+    <b>8.4</b> <b>Limine</b>
+  </summary>
+
+  <br>
+
+  <p>
+    <b>🌟 The Modern Rising Star</b><br>
+    Limine is a highly optimized, lightweight, advanced bootloader rapidly gaining traction among minimalists. It bridges the gap between the raw speed of systemd-boot and the visual capabilities of GRUB, offering a clean modern alternative without heavy bloat.
+  </p>
+
+  <br>
+
+| ✨ The Mechanics (Pros) | ⚠️ The Catch (Cons) |
+| :--- | :--- |
+| **🪶 Ultra Lightweight:** Implements an incredibly small memory footprint while providing advanced structural support for cutting-edge custom boot protocols. | **🛠️ Manual Intervention:** Not included as the default bootloader on mainstream Linux distributions. You must install and build its configs manually. |
+| **🖼️ Clean Aesthetics:** Supports custom image splash screens and custom font styling easily through a single, basic layout file without sacrificing code performance. | **📚 Smaller Archive:** Because it is relatively new to the ecosystem, it lacks the decades of massive community forum troubleshooting threads that GRUB possesses. |
+
+  <br>
+
+  <p align="center">
+    <b>🎯 Best For:</b> Custom kernel developers, Linux enthusiasts, and users who want a tailored, lightweight boot interface.<br>
+  </p>
+
+  <br>
+</details>
 
 <br>
